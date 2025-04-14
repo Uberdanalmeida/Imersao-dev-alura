@@ -21,14 +21,11 @@ let numeroSorteado;
         principal.style.backgroundColor = 'red';
       } else if (parseInt(numer) === numeroSorteado) {
         alert('Parabéns! Você acertou!');
-        principal.style.backgroundColor = 'blue';
         // Opcional: Desabilitar o botão de tentar novamente
         // document.querySelector('button[onclick="clicou()"]').disabled = true;
       } else if (parseInt(numer) > numeroSorteado) {
         alert('O número é menor.');
-        principal.style.backgroundColor = 'yellow';
       } else {
         alert('O número é maior.');
-        principal.style.backgroundColor = 'aqua';
       }
     }
