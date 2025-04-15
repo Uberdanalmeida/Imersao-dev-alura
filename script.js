@@ -1,7 +1,7 @@
 let numeroSorteado;
 
     function sortearNumero() {
-      numeroSorteado = Math.floor(Math.random() * 1000) + 1;
+      numeroSorteado = Math.floor(Math.random() * 500) + 1;
       console.log("Número sorteado:", numeroSorteado);
       alert('Número sorteado! Agora tente adivinhar.');
       // Opcional: Você pode reabilitar o botão de tentar aqui, se o tiver desabilitado após o acerto.
@@ -16,13 +16,11 @@ let numeroSorteado;
         return;
       }
 
-      if (numer > 1000 || numer === '') {
-        alert('Escolha um número válido entre 1 e 1000.');
-        principal.style.backgroundColor = 'red';
+      if (numer > 500 || numer === '') {
+        alert('Escolha um número válido entre 1 e 500.');
+        
       } else if (parseInt(numer) === numeroSorteado) {
         alert('Parabéns! Você acertou!');
-        // Opcional: Desabilitar o botão de tentar novamente
-        // document.querySelector('button[onclick="clicou()"]').disabled = true;
       } else if (parseInt(numer) > numeroSorteado) {
         alert('O número é menor.');
       } else {
