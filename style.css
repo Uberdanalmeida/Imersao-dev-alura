@@ -19,3 +19,11 @@ body {
 #num {
     width: 204px;
 }
+
+#tentar {
+    padding-top: 30px;
+}
+
+span {
+    color: blue;
+}
