@@ -3,7 +3,6 @@ let tentativas = 0
 
     function sortearNumero() {
       numeroSorteado = Math.floor(Math.random() * 500) + 1;
-      console.log("Número sorteado:", numeroSorteado);
       alert('Número sorteado! Agora tente adivinhar.');
       tentativas = 0
       const tentar = document.getElementById('tentar');
