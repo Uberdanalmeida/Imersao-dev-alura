@@ -30,11 +30,14 @@ let tentativas = 0
       } else if (parseInt(numer) === numeroSorteado) {
         img.src = 'imagem/trofeu.png'
         alert('Parabéns! Você acertou!');
+        document.body.style.backgroundImage = 'url("imagem/vencedor.jpg")';
+        document.body.style.backgroundRepeat = 'no-repeat'
+        document.body.style.backgroundSize = 'cover'
 
         tentativas++;
 
         if (tentar) {
-          tentar.innerHTML = `<p id='par'>Parabéns você acertou.<br/> Você <span>precisou de ${tentativas} tentativa(s)</span> para acertar o número.<p/>`;
+          tentar.innerHTML = `<p id='par'>Parabéns! você acertou!<br/> Você <span>precisou de ${tentativas} tentativa(s)</span> para acertar o número.<p/>`;
         }
       } 
       else if (parseInt(numer) > numeroSorteado) {

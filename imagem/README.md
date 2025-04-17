@@ -1,3 +1,5 @@
+![Jogo de Adivinhação](imagem/jogoimersao.png)
+
 # 🎮 Jogo de Adivinhação da Imersão Alura! 🧠✨
 
 E aí, pessoal! 👋 Sejam bem-vindos ao README do nosso super divertido Jogo de Adivinhação, direto da Imersão Alura! Preparem seus palpites porque a brincadeira vai começar! 😉
