@@ -42,9 +42,11 @@ let tentativas = 0
       else if (parseInt(numer) > numeroSorteado) {
         tentativas++;
         alert('O número é menor.');
+        document.getElementById('num').value = '';
       } 
       else {
         tentativas++;
         alert('O número é maior.');
+        document.getElementById('num').value = '';
       }
     }
