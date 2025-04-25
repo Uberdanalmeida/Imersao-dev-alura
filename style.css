@@ -27,3 +27,18 @@ body {
 span {
     color: blue;
 }
+
+@media(max-width: 360px) {
+    body {
+        display: flex;
+        background-color: black;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+
+    #princ {
+        height: 95%;
+        width: 90%;
+    }
+}
