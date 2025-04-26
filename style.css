@@ -28,7 +28,7 @@ span {
     color: blue;
 }
 
-@media(max-width: 360px) {
+@media(max-width: 480px) {
     body {
         display: flex;
         background-color: black;
