@@ -41,4 +41,12 @@ span {
         height: 95%;
         width: 90%;
     }
+
+    h1 {
+        padding: 10px;
+    }
+
+    input, button {
+        margin-top: 10px;
+    }
 }
