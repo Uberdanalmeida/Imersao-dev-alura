@@ -1,4 +1,4 @@
-![Jogo de Adivinhação](imagem/Imersao-dev.png)
+![Jogo de Adivinhação](imagem/Imersao-dev-alura.png)
 
 # 🎮 Jogo de Adivinhação da Imersão Alura! 🧠✨
 
